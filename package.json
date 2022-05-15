@@ -1,0 +1,27 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "starts": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martin4055/NextJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martin4055/NextJS/issues"
+  },
+  "homepage": "https://github.com/martin4055/NextJS#readme",
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
