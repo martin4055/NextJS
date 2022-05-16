@@ -13,13 +13,13 @@ exports.id = "pages/user";
 exports.ids = ["pages/user"];
 exports.modules = {
 
-/***/ "./pages/user.js":
-/*!***********************!*\
-  !*** ./pages/user.js ***!
-  \***********************/
+/***/ "./pages/user/index.js":
+/*!*****************************!*\
+  !*** ./pages/user/index.js ***!
+  \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ User)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction User() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n            children: \"User Page\"\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\Gamer\\\\OneDrive\\\\Escritorio\\\\GitHub\\\\NextJS\\\\pages\\\\user.js\",\n            lineNumber: 4,\n            columnNumber: 16\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\Gamer\\\\OneDrive\\\\Escritorio\\\\GitHub\\\\NextJS\\\\pages\\\\user.js\",\n        lineNumber: 3,\n        columnNumber: 11\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy91c2VyLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7OztBQUFBO0FBQWUsU0FBU0EsSUFBSSxHQUFFO0lBQ3pCLHFCQUNLLDhEQUFDQyxLQUFHO2tCQUNDLDRFQUFDQyxJQUFFO3NCQUFDLFdBQVM7Ozs7O2dCQUFLOzs7OztZQUNqQixDQUNWO0NBQ0wiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0anMvLi9wYWdlcy91c2VyLmpzP2FhM2EiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gVXNlcigpe1xyXG4gICAgIHJldHVybihcclxuICAgICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgICAgIDxoMT5Vc2VyIFBhZ2U8L2gxPlxyXG4gICAgICAgICAgPC9kaXY+XHJcbiAgICAgKVxyXG59Il0sIm5hbWVzIjpbIlVzZXIiLCJkaXYiLCJoMSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/user.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ User)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction User() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n            children: \"User Page\"\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\Gamer\\\\OneDrive\\\\Escritorio\\\\GitHub\\\\NextJS\\\\pages\\\\user\\\\index.js\",\n            lineNumber: 4,\n            columnNumber: 16\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\Gamer\\\\OneDrive\\\\Escritorio\\\\GitHub\\\\NextJS\\\\pages\\\\user\\\\index.js\",\n        lineNumber: 3,\n        columnNumber: 11\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy91c2VyL2luZGV4LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7OztBQUFBO0FBQWUsU0FBU0EsSUFBSSxHQUFFO0lBQ3pCLHFCQUNLLDhEQUFDQyxLQUFHO2tCQUNDLDRFQUFDQyxJQUFFO3NCQUFDLFdBQVM7Ozs7O2dCQUFLOzs7OztZQUNqQixDQUNWO0NBQ0wiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0anMvLi9wYWdlcy91c2VyL2luZGV4LmpzP2FlOTciXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gVXNlcigpe1xyXG4gICAgIHJldHVybihcclxuICAgICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgICAgIDxoMT5Vc2VyIFBhZ2U8L2gxPlxyXG4gICAgICAgICAgPC9kaXY+XHJcbiAgICAgKVxyXG59Il0sIm5hbWVzIjpbIlVzZXIiLCJkaXYiLCJoMSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/user/index.js\n");
 
 /***/ }),
 
@@ -40,7 +40,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/user.js"));
+var __webpack_exports__ = (__webpack_exec__("./pages/user/index.js"));
 module.exports = __webpack_exports__;
 
 })();
